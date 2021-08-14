@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "监控平台数据库工具", "数据库工具\监控平台数据库工具.csproj", "{87D6F41D-7ACB-4A9A-80E2-01964534A3A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Itanium = Debug|Itanium
+		Release|Any CPU = Release|Any CPU
+		Release|Itanium = Release|Itanium
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87D6F41D-7ACB-4A9A-80E2-01964534A3A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D6F41D-7ACB-4A9A-80E2-01964534A3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D6F41D-7ACB-4A9A-80E2-01964534A3A3}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{87D6F41D-7ACB-4A9A-80E2-01964534A3A3}.Debug|Itanium.Build.0 = Debug|Itanium
+		{87D6F41D-7ACB-4A9A-80E2-01964534A3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D6F41D-7ACB-4A9A-80E2-01964534A3A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87D6F41D-7ACB-4A9A-80E2-01964534A3A3}.Release|Itanium.ActiveCfg = Release|Itanium
+		{87D6F41D-7ACB-4A9A-80E2-01964534A3A3}.Release|Itanium.Build.0 = Release|Itanium
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

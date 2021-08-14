@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{87D6F41D-7ACB-4A9A-80E2-01964534A3A3}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>add_process-img2ico.net.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>数据库工具</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Upgrade</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <SccAuxPath>
+    </SccAuxPath>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <Win32Resource>
+    </Win32Resource>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>http://localhost/数据库工具/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.5.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Itanium' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Itanium\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>Itanium</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Itanium' ">
+    <OutputPath>bin\Itanium\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>Itanium</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Infragistics2.Excel.v10.2, Version=10.2.20102.1004, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage 2010.2\Windows Forms\Bin\Infragistics2.Excel.v10.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Shared.v10.2, Version=10.2.20102.1004, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage 2010.2\Windows Forms\Bin\Infragistics2.Shared.v10.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.Misc.v10.2, Version=10.2.20102.1004, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage 2010.2\Windows Forms\Bin\Infragistics2.Win.Misc.v10.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinChart.v10.2, Version=10.2.20102.1004, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage 2010.2\Windows Forms\Bin\Infragistics2.Win.UltraWinChart.v10.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinDataSource.v10.2, Version=10.2.20102.1004, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage 2010.2\Windows Forms\Bin\Infragistics2.Win.UltraWinDataSource.v10.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.ExcelExport.v10.2, Version=10.2.20102.1004, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage 2010.2\Windows Forms\Bin\Infragistics2.Win.UltraWinGrid.ExcelExport.v10.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.v10.2, Version=10.2.20102.1004, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage 2010.2\Windows Forms\Bin\Infragistics2.Win.UltraWinGrid.v10.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinListView.v10.2, Version=10.2.20102.1004, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage 2010.2\Windows Forms\Bin\Infragistics2.Win.UltraWinListView.v10.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTabControl.v10.2, Version=10.2.20102.1004, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage 2010.2\Windows Forms\Bin\Infragistics2.Win.UltraWinTabControl.v10.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTree.v10.2, Version=10.2.20102.1004, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage 2010.2\Windows Forms\Bin\Infragistics2.Win.UltraWinTree.v10.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.v10.2, Version=10.2.20102.1004, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage 2010.2\Windows Forms\Bin\Infragistics2.Win.v10.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="add_process-img2ico.net.ico" />
+    <Content Include="App.ico" />
+    <None Include="app.config" />
+    <None Include="Main.gif" />
+    <Content Include="Images\03627.ico" />
+    <None Include="Images\403.ico" />
+    <Content Include="Images\App.ico" />
+    <None Include="Images\Disk001.jpg" />
+    <None Include="Images\DB_Delete.ico" />
+    <None Include="Images\DB_User.ico" />
+    <None Include="Images\CuneiEdit.ico" />
+    <None Include="Images\DB_Index.ico" />
+    <None Include="Images\DB_Procedure.ico" />
+    <None Include="Images\DB_Functions.ico" />
+    <None Include="Images\CPU.png" />
+    <None Include="Images\Database_003-img2ico.net.ico" />
+    <None Include="Images\Database_003-img2ico.net%281%29.ico" />
+    <Content Include="Images\DB_Refresh.ico" />
+    <None Include="Images\DB_View.ico" />
+    <None Include="Images\DB_View1.ico" />
+    <None Include="Images\gears.png" />
+    <Content Include="Images\hourglass.ico" />
+    <Content Include="Images\images-2.jpg" />
+    <None Include="Images\Image_Object.ico" />
+    <Content Include="Images\key.ico" />
+    <Content Include="Images\Main.gif" />
+    <Content Include="Images\Main.ico" />
+    <Content Include="Images\locked.ico" />
+    <None Include="Images\SOUND_1.ICO" />
+    <None Include="Images\SOUND_1.png" />
+    <None Include="Images\Script.ico" />
+    <None Include="Images\NetCard.png" />
+    <None Include="Images\oscilloscope.png" />
+    <Content Include="Images\TABLE.ICO" />
+    <None Include="Images\Table_1.ico" />
+    <None Include="Images\Table_1.PNG" />
+    <Content Include="Images\unlocked.ico" />
+    <Content Include="Main.ico" />
+    <None Include="Properties\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\00025.ico" />
+    <None Include="Resources\000251.ico" />
+    <None Include="Resources\Search.BMP" />
+    <Content Include="Resources\09175.ico" />
+    <None Include="Resources\Excel.png" />
+    <Content Include="Resources\Filefolder.ico" />
+    <Compile Include="AppClass\DatabaseObjects.cs" />
+    <Compile Include="AppClass\DBObjects.cs" />
+    <Compile Include="AppClass\ExcuteSQLScriptCls.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AppClass\MakeDBFuncViewProcSQLCls.cs" />
+    <Compile Include="AppClass\MakeSQLScriptCls.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AppClass\MakeTableData2SQLCls.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AppClass\MyDBUpdateException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AppClass\MyFlatBorderTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AppClass\PublicDBCls.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AppClass\PublicStaticCls.cs" />
+    <Compile Include="AppClass\PublicStructs.cs" />
+    <Compile Include="AppClass\MyFlatBorderComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Apps\BatchMakeDBObjectScriptForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\BatchMakeDBObjectScriptForm.Designer.cs">
+      <DependentUpon>BatchMakeDBObjectScriptForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\clsBizDataInfo.cs" />
+    <Compile Include="Apps\clsDBChartShow.cs" />
+    <Compile Include="Apps\clsPublicObjects.cs" />
+    <Compile Include="Apps\DBAndTableInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\DBAndTableInfoForm.Designer.cs">
+      <DependentUpon>DBAndTableInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\ExcuteSQLInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\ExcuteSQLInfoForm.Designer.cs">
+      <DependentUpon>ExcuteSQLInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\frmCPUNetCardInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\frmCPUNetCardInfo.Designer.cs">
+      <DependentUpon>frmCPUNetCardInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\frmDBReIndexandStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\frmDBReIndexandStatistics.Designer.cs">
+      <DependentUpon>frmDBReIndexandStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\frmDBShrinkFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\frmDBShrinkFile.Designer.cs">
+      <DependentUpon>frmDBShrinkFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\frmImportCustomDataInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\frmImportCustomDataInfo.Designer.cs">
+      <DependentUpon>frmImportCustomDataInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\LoginCountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\LoginCountForm.Designer.cs">
+      <DependentUpon>LoginCountForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\ProcessBlockedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\ProcessBlockedForm.Designer.cs">
+      <DependentUpon>ProcessBlockedForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\DBReIndexandStatisticsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\DBReIndexandStatisticsForm.Designer.cs">
+      <DependentUpon>DBReIndexandStatisticsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\PropertyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\PropertyForm.Designer.cs">
+      <DependentUpon>PropertyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\U9_DBAndTableInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\U9_DBAndTableInfoForm.Designer.cs">
+      <DependentUpon>U9_DBAndTableInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="UpGradeApp\EditUpgradeSQLForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpGradeApp\ExportInsertSQLForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpGradeApp\ListQueryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpGradeApp\MakeFuncsViewsProcsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpGradeApp\UpdateAllTestServerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpGradeApp\UpdateDBObject2TemplateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpGradeApp\UpdateDBObject2TemplateStartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Apps\BatchMakeDBObjectScriptForm.resx">
+      <DependentUpon>BatchMakeDBObjectScriptForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\DBAndTableInfoForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DBAndTableInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\ExcuteSQLInfoForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ExcuteSQLInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\frmCPUNetCardInfo.resx">
+      <DependentUpon>frmCPUNetCardInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\frmDBReIndexandStatistics.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDBReIndexandStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\frmDBShrinkFile.resx">
+      <DependentUpon>frmDBShrinkFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\frmImportCustomDataInfo.resx">
+      <DependentUpon>frmImportCustomDataInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\LoginCountForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LoginCountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\ProcessBlockedForm.resx">
+      <DependentUpon>ProcessBlockedForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\DBReIndexandStatisticsForm.resx">
+      <DependentUpon>DBReIndexandStatisticsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\PropertyForm.resx">
+      <DependentUpon>PropertyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\U9_DBAndTableInfoForm.resx">
+      <DependentUpon>U9_DBAndTableInfoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpGradeApp\EditUpgradeSQLForm.resx">
+      <DependentUpon>EditUpgradeSQLForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpGradeApp\ExportInsertSQLForm.resx">
+      <DependentUpon>ExportInsertSQLForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpGradeApp\ListQueryForm.resx">
+      <DependentUpon>ListQueryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpGradeApp\MakeFuncsViewsProcsForm.resx">
+      <DependentUpon>MakeFuncsViewsProcsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpGradeApp\UpdateAllTestServerForm.resx">
+      <DependentUpon>UpdateAllTestServerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpGradeApp\UpdateDBObject2TemplateForm.resx">
+      <DependentUpon>UpdateDBObject2TemplateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpGradeApp\UpdateDBObject2TemplateStartForm.resx">
+      <DependentUpon>UpdateDBObject2TemplateStartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBMainForm.resx">
+      <DependentUpon>DBMainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
